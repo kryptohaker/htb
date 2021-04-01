@@ -29,6 +29,7 @@ def bruteforce(found_letter=None):
             print(query['message'][0],' - Last attempted pattern:',attempted_letter)
         else:
             found_letter = i
+            print('Found pattern:', attempted_letter) 
             bruteforce(attempted_letter)
             break
 bruteforce()
