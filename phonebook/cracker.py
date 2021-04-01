@@ -13,7 +13,7 @@ uppercase = list(string.ascii_uppercase)
 digits  = list(string.digits)
 other = ["#","$","%","@","!","{","}","[","]","_","&","^"," "]
 attempts = lowercase+uppercase+digits+other
-username = 'reese' # I will not give username ;-)
+username = '' # I will not give username ;-)
 host = 'http://206.189.121.131:30475/login' 
 def bruteforce(found_letter=None):
     for i in attempts:
